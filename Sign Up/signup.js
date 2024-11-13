@@ -19,8 +19,7 @@ function signUp() {
     .then((userCredential) => {
       var user = userCredential.user;
       console.log(user);
-      window.location.href = "file:///D:/Final%20Hackaton%20in%20Jawan%20Pakistan/To%20do%20App/Home%20Page/home.html"
-
+      window.location.href = "../Home Page/home.html"
     })
     .catch((error) => {
       var errorCode = error.code;
