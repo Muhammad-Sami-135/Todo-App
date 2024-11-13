@@ -1,0 +1,42 @@
+* {
+  margin-top: 0;
+}
+
+.head {
+  text-align: center;
+  background-color: rgba(15, 42, 116, 0.479);
+  color: white;
+  height: 60px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 5px 8px 3px rgba(15, 42, 116, 0.479);
+}
+
+.userinput {
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid rgb(30, 23, 73);
+  font-size: 17px;
+  padding-left: 10px;
+}
+
+.dltbtn {
+  background-color: rgb(184, 19, 47);
+  padding: 8px;
+  width: 150px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}

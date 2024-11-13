@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To do App</title>
+        <link rel="stylesheet" href="home.css">
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    </head>
+    <body style="background-color: rgb(15, 128, 156);">
+        
+        <h1 class="head">To do App</h1>
+        <div class="main">
+            <input class="userinput" placeholder="Enter your Input"
+                id="userinput" type="text">
+            <button class="dltbtn" onclick="addItem()">Add Item</button>
+            <button class="dltbtn" onclick="dltAllItem()">Delete All
+                Item</button>
+        </div>
+        <div style="margin-top:80px;">
+            <ul id="list"></ul>
+        </div>
+
+    </body>
+    <script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
